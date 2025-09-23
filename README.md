@@ -1,41 +1,12 @@
-# To-Do List App
+# React + Vite
 
-A modern, interactive Todo List application designed to help you manage your tasks efficiently. Built with React and deployed on Vercel, this app offers a seamless user experience with features like task addition, editing, completion, and deletion.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- **Task Management**: Add, edit, complete, and delete tasks with ease.
-- **Interactive UI**: Smooth animations and responsive design ensure a delightful user experience.
-- **Public Deployment**: Deployed on Vercel, accessible at [https://to-do-list-eight-mocha.vercel.app/](https://to-do-list-eight-mocha.vercel.app/).
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Technology Stack
+## Expanding the ESLint configuration
 
-- **Frontend**: React
-- **Deployment**: Vercel
-- **Build Tool**: Vite
-
-## Getting Started
-
-To run this project locally, follow these steps:
-
-1. Clone the repository.
-2. Install dependencies using `npm install`.
-3. Start the application with `npm run dev`.
-
-## Deployment
-
-This application is deployed publicly on Vercel. You can view it live at [https://to-do-list-eight-mocha.vercel.app/](https://to-do-list-eight-mocha.vercel.app/).
-
-## Future Enhancements
-
-- **Due Dates**: Implement due date reminders.
-- **Priority Levels**: Add task priority levels.
-- **Collaboration**: Integrate multi-user support.
-
-## Contributing
-
-Contributions are welcome! Feel free to fork this repository and submit pull requests.
-
-## License
-
-This project is licensed under the MIT License.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
